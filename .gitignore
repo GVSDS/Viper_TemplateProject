@@ -1,0 +1,12 @@
+ViperTemplateProject/App/
+build/
+output/
+*.o
+*.obj
+*.exe
+*.img
+*.iso
+__pycache__/
+.cache/
+*.pyc
+
