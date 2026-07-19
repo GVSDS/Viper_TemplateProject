@@ -1,5 +1,4 @@
-ViperTemplateProject/App/
-build/
+temp/
 output/
 *.o
 *.obj
@@ -9,4 +8,3 @@ output/
 __pycache__/
 .cache/
 *.pyc
-
