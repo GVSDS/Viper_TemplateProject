@@ -2,8 +2,7 @@
     "name": "Standard Template Project",
     "version": "1.0.0",
     "source_dir": "./App",
-    "temp_dir": "./temp",
-    "output_dir": "./output",
+    "build_dir": "./.tpv_build",
     "compiler": {
         "cmd": "llc",
         "flags": ["-filetype=obj", "-relocation-model=pic"]
