@@ -5,11 +5,22 @@
     "build_dir": "./.tpv_build",
     "compiler": {
         "cmd": "llc",
-        "flags": ["-filetype=obj", "-relocation-model=pic"]
+        "flags": [
+            "-filetype=obj",
+            "-relocation-model=pic"
+        ]
     },
     "linker": {
-        "cmd": "clang++",
-        "flags": ["-lmsvcrt", "-lucrt", "-lpthread", "-lmingwex", "-lkernel32", "-Wl,--allow-multiple-definition"],
+        "cmd": "D:/msys64/mingw64/bin/clang++.exe",
+        "flags": [
+            "-fuse-ld=lld",
+            "-lmsvcrt",
+            "-lucrt",
+            "-lpthread",
+            "-lmingwex",
+            "-lkernel32",
+            "-Wl,--allow-multiple-definition"
+        ],
         "output": "app.exe"
     },
     "includes": [
