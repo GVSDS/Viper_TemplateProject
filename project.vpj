@@ -18,8 +18,7 @@
             "-lucrt",
             "-lpthread",
             "-lmingwex",
-            "-lkernel32",
-            "-Wl,--allow-multiple-definition"
+            "-lkernel32"
         ],
         "output": "app.exe"
     },
